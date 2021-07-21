@@ -80,12 +80,24 @@ h2 {
 	color: #fff;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
 .obdelnik.cervena.banner {
 	display: none;
-	/*opacity: 0;
-	visibility: hidden;*/
+	opacity: 0;
+	visibility: hidden;
 }
-}
+}*/
 	
+MOBILE FIRST:
 
+.banner {
+	display:none;
+}
+@media (min-width:500px) {
+	.banner {
+		display:block;
+	}
+	.modra {
+		display: none;
+	}
+}
