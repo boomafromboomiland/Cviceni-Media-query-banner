@@ -80,5 +80,12 @@ h2 {
 	color: #fff;
 }
 
-/* ------------- pod čáru přijdou tvé styly ------------- */
+@media screen and (max-width: 500px) {
+.obdelnik.cervena.banner {
+	display: none;
+	/*opacity: 0;
+	visibility: hidden;*/
+}
+}
+	
 
